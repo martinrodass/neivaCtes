@@ -222,7 +222,7 @@ footer .fa-whatsapp,footer i{
         width: 100%;
     }
     header{
-        width: 100vw;
+        width: 100%;
         height: 70px;
         position: fixed;
         z-index: 100000000;  

@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+body::before{
+
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/logos/wall.jpg);
+    background-size: 400px;
+    filter: blur(10px);
+    transform: rotate(180deg);
+    z-index: -1; /* Envía el fondo atrás */
+
+}
+.contenedor_general{
+    min-width: 80vw;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+header{
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    z-index: 100000000;  
+    background-position: right;
+    background-image: url(img/logos/portadaAlargada.png);
+    background-color: black;
+    overflow: hidden;
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+
+}
+.nav_pc{
+    position: fixed;
+    width: 23.5vw;
+    max-width: 300px;
+    min-width: 180px;
+    top:calc(50% + 35px);
+    transform: translateY(-50%);
+    max-height:80vh ;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    display: flex;
+    flex-direction:column ;
+    padding: 20px;
+}
+.nav_celular{
+    display: none;
+}
+.nav_pc a{
+    color:#f5f5ef;
+    text-decoration: none;
+    border-bottom: #f5f5ef 1px solid;
+    padding: 12px;
+}
+.nav_pc a:hover{
+    transform: scale(1.1);
+    color: rgb(141, 13, 141);
+    transition: transform 0.2s;
+    
+   
+    
+}
+.nav_pc i{
+    padding-right: 29px;
+    width: 15px;
+}
+
+
+main{
+    position: relative; 
+    width: 70%;
+    left: 24vw;
+    top: 70px;
+    margin-bottom: 70px;
+}
+footer{
+    position: relative;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+}
+article{
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.063);
+    border-radius: 2px;
+    transition: 0.2s transform;
+    padding: 16px;
+}
+article:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #850876, 0 0 10px #ff4da6, 0 0 20px #490233, 0 0 40px #3c0543;
+    outline: 1px solid rgb(141, 13, 141) ;
+}
+article div{
+    width: 80%;
+    max-width: 200px;
+    height: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+article h3{
+    margin-top: 20px;
+    font-family: "Lexend Giga", serif;
+}
+article div img{
+    width: 100%;
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.063);
+}
+a{
+    color: #f5f5ef;
+    text-decoration: none;
+}
+.titulos{
+    color: #f5f5ef;
+    margin-left:9% ;
+    width: 81%;
+    border-bottom:1px solid #f5f5ef ;
+}
+h2{
+    font-size: 30px;
+    font-family: "Lexend Giga", serif;
+}
+.fa-whatsapp{
+    width: 20px;
+    color: rgb(141, 13, 141) ;
+    font-size: 200%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+span{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #850876, 0 0 10px #ff4da6, 0 0 20px #490233, 0 0 40px #3c0543;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    width: 50%;
+    margin: auto;
+}
+footer .fa-whatsapp,footer i{
+    color: #ffffff;
+    padding: 20px;
+    font-size: 150%;
+    width:10px;
+    margin: 20px;
+    justify-content: center ;
+    align-items:center ;
+    margin-top: 0 ;
+
+}
+
+
+@media(max-width: 1400px){
+    section{
+        
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:990px) {
+    section{ 
+        grid-template-columns: repeat(1, 1fr);
+        }
+        section article{
+            
+        }
+        section article div {
+            width: 100%;
+            height: 100%;
+            max-width: 80%;
+        }
+}
+@media (max-width: 730px) {
+    .nav_pc{
+        display: none;
+    }
+    .nav_celular {
+        display: flex;
+        top: auto;
+        position: fixed;
+        z-index: 10000000000000000;
+        top: 25px;
+    }
+    section{ 
+        grid-template-columns: repeat(2, 1fr);
+        }
+    .nav_celular i{
+        padding-right: 25px;
+        width: 15px;
+    }
+    main{
+        left: 0;
+        margin: auto;
+        width: 100%;
+    }
+    header{
+        background-image: url(img/logos/micrologo.png);
+    }
+}

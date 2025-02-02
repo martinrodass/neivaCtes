@@ -205,7 +205,6 @@ footer .fa-whatsapp,footer i{
     .nav_celular {
         display: flex;
         top: auto;
-        width:100%;
         position: fixed;
         z-index: 10000000000000000;
         top: 25px;
@@ -223,6 +222,16 @@ footer .fa-whatsapp,footer i{
         width: 100%;
     }
     header{
+        width: 100vw;
+        height: 70px;
+        position: fixed;
+        z-index: 100000000;  
+        background-position: right;
+        background-color: black;
+        overflow: hidden;
+        background-size: contain; 
+        background-position: center; 
+        background-repeat: no-repeat; 
         background-image: url(img/logos/micrologo.png);
     }
 }

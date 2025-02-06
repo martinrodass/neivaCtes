@@ -40,7 +40,7 @@ header{
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat; 
-    
+    top: 0px;
 
 }
 .nav_pc{
@@ -189,28 +189,21 @@ footer .fa-whatsapp,footer i{
     section{ 
         grid-template-columns: repeat(1, 1fr);
         }
-        section article{
-            
-        }
         section article div {
             width: 100%;
             height: 100%;
             max-width: 80%;
-        }
-}
-@media (max-width: 730px) {
-    section{ 
-        grid-template-columns: repeat(1, 1fr);
-        }
-        section article{
-            
-        }
-        section article div {
-            width: 100%;
-            height: 100%;
-            max-width: 80%;
-        } .nav_pc{
-            display: none;
+        } 
+        .nav_pc{
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            z-index: 100000000000;
+            top: 70px;
+            left: 0px;
+            transform: translateX(-100%);
+            transition: transform 0.2s ease-in-out;
+           
         }
         .nav_celular {
             display: flex;
@@ -219,9 +212,14 @@ footer .fa-whatsapp,footer i{
             z-index: 10000000000000000;
             top: 25px;
         }
-        .nav_celular i{
+        .nav_celular a {
             padding-right: 25px;
-            width: 15px;
+            font-size: 20px;
+            width: 25px;
+            margin-left:20px;
+        }
+        .contenedor_general:active .nav_pc{
+           transform: translateX(0px);
         }
         header{
             background-image: url(img/logos/micrologo.png);
@@ -231,3 +229,67 @@ footer .fa-whatsapp,footer i{
             margin: auto;
         }
 }
+
+@media (max-width: 990px) {
+    .nav_pc{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        z-index: 100000000000;
+        top: 70px;
+        left: 19px;
+        transform: translateX(-100%);
+        transition: transform 0.2s ease-in-out;
+    }
+    .nav_celular {
+        display: flex;
+        top: auto;
+        position: fixed;
+        z-index: 10000000000000000;
+        top: 25px;
+    }
+    .nav_celular i {
+        padding-right: 25px;
+        font-size: 20px;
+        width: 25px;
+        margin-left: 20px;
+    }
+}
+
+/* @media (max-width: 730px) {
+    .nav_pc{
+        display: none;
+    }
+    .nav_celular {
+        display: flex;
+        top: auto;
+        position: fixed;
+        z-index: 10000000000000000;
+        top: 25px;
+    }
+    section{ 
+        grid-template-columns: repeat(2, 1fr);
+        }
+    .nav_celular i{
+        padding-right: 25px;
+        width: 15px;
+    }
+    main{
+        left: 0;
+        margin: auto;
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        z-index: 100000000;  
+        background-position: right;
+        background-color: black;
+        overflow: hidden;
+        background-size: contain; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-image: url(img/logos/micrologo.png);
+    }
+} */

@@ -293,7 +293,7 @@
                         </div>  
                         <h3>
                             
-                            60ml 3% nicotina <br><span>$13.000</span><br><span>no stock, consultar encargo</span>
+                            60ml 3% nicotina <br><span>$13.000</span>
                         </h3>
                         <i class="fa-brands fa-whatsapp"></i>
                     </article>
@@ -314,16 +314,27 @@
 
     <script>
         function toggleNav() {
-            var nav = document.querySelector('.nav_pc');
-            nav.style.transform = (nav.style.transform === 'translateX(0px)') ? 'translateX(-100%)' : 'translateX(0px)';
-        }
-        document.querySelectorAll('.nav_pc a').forEach(function(link) {
-            link.addEventListener('click', function() {
+            if (window.innerWidth < 990) { // Solo ejecuta si el ancho es menor a 990px
                 var nav = document.querySelector('.nav_pc');
-                nav.style.transform = 'translateX(-100%)'; // Cierra el menú
-            });
-        });
+                nav.style.transform = (nav.style.transform === 'translateX(0px)') ? 'translateX(-120%)' : 'translateX(0px)';
+            }
+        }
+    
+        function setupNav() {
+            if (window.innerWidth < 990) {
+                document.querySelectorAll('.nav_pc a').forEach(function(link) {
+                    link.addEventListener('click', function() {
+                        var nav = document.querySelector('.nav_pc');
+                        nav.style.transform = 'translateX(-120%)'; // Cierra el menú
+                    });
+                });
+            }
+        }
+    
+        document.addEventListener("DOMContentLoaded", setupNav);
+        window.addEventListener("resize", setupNav); // Vuelve a aplicar la lógica si cambia el tamaño de la pantalla
     </script>
+    
     
 </body>
 </html>

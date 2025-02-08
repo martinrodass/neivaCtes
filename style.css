@@ -293,3 +293,6 @@ footer .fa-whatsapp,footer i{
         background-image: url(img/logos/micrologo.png);
     }
 } */
+html {
+    scroll-padding-top: 70px; /* Ajusta según el tamaño de tu header */
+  }

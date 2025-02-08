@@ -17,8 +17,7 @@ body::before{
     height: 100%;
     background-image: url(img/logos/wall.jpg);
     background-size: 400px;
-    filter: blur(10px);
-    transform: rotate(180deg);
+    filter: blur(0px);
     z-index: -1; /* Envía el fondo atrás */
 
 }
@@ -102,8 +101,8 @@ section {
 article{
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.063);
-    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.836);
+    border-radius: 13px;
     transition: 0.2s transform;
     padding: 16px;
 }
@@ -238,7 +237,7 @@ footer .fa-whatsapp,footer i{
         z-index: 100000000000;
         top: 70px;
         left: 19px;
-        transform: translateX(-100%);
+        transform: translateX(-120%);
         transition: transform 0.2s ease-in-out;
     }
     .nav_celular {

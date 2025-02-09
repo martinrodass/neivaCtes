@@ -87,6 +87,36 @@ main{
     top: 70px;
     margin-bottom: 70px;
 }
+/* .stockArriba {
+    width: 90%;
+    margin: auto;
+    height: 200px; /* Cambié max-height a height si necesitas una altura fija */
+    overflow: hidden;
+    margin-top: 70px;
+    position: relative;
+}
+
+.stockArriba img {
+    display: block;
+    width: 100%;
+    height: 100%; /* Asegura que la imagen se ajuste al contenedor */
+    object-fit: cover;
+    object-position: center;
+}
+
+.stockArriba::before { 
+    content: " NEIVA  Tu tienda de confianza para los mejores vapes del mercado.💨                                                  \A Ubicacion: CORRIENTES CAPITAL                                                    por cordoba entre hipolito yrigoyen y san martin                                                                 \a ofrecemos una amplia gama de dispositivos y líquidos para todos los gustos. 🌬️💨";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el texto horizontalmente */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado alrededor del texto */
+    font-size: 16px; /* Tamaño del texto */
+} */
+
+
 footer{
     position: relative;
 }

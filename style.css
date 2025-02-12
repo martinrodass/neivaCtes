@@ -160,11 +160,9 @@ article{
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.836);
     border-radius: 13px;
-    transition: 0.2s transform;
     padding: 16px;
 }
 article:hover{
-    transform: scale(1.05);
     box-shadow: 0 0 5px #850876, 0 0 10px #ff4da6, 0 0 20px #490233, 0 0 40px #3c0543;
     outline: 1px solid rgb(141, 13, 141) ;
 }

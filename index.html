@@ -43,8 +43,28 @@
 
 
 
+        <div id="inicio" class="contArriba">
+            <div class="contRedes">
+                <h2>seguinos💨💨💨</h2>
+                <a target="_blank" href="https://www.instagram.com/pod_neiva/">
+                    <div>
+                        <img src="img/logos/instagram.png" alt="instagram">
+                    </div>
+                    
+                </a>
+        </div>
+            <div class="contMap">
+                <h2>envios</h2>
+                <div>
+                    <img src="img/logos/map.png" alt="mapa.envios">
+                </div>
+                <p>1- Dentro de la zona marcada envios a $1500 <br>2- Envios con uber por cuenta del comprador</p>
+            </div>
 
-        <main id="inicio">
+            
+
+        </div>
+        <main >
             
             <!-- <div class="titulos">
                 <h2 id="destacados">destacados</h2>
@@ -111,6 +131,8 @@
                     </article>
                 </a>
             </section> -->
+
+
             <div class="titulos">
                 <h2 id="vapes_r">vapes recargables</h2>
             </div>
@@ -300,7 +322,6 @@
                 <h2 id="pedidos">a pedido</h2>
             </div>
             <section>
-                <!-- <span><h2>cooming soon...</h2></span> -->
                 <a target="_blank" href="https://wa.me/543773445145 ">
                     <article>
                         <h3>
@@ -403,7 +424,7 @@
 
     <script>
         function toggleNav() {
-            if (window.innerWidth < 990) { // Solo ejecuta si el ancho es menor a 990px
+            if (window.innerWidth < 990) { 
                 var nav = document.querySelector('.nav_pc');
                 nav.style.transform = (nav.style.transform === 'translateX(0px)') ? 'translateX(-120%)' : 'translateX(0px)';
             }
@@ -414,14 +435,14 @@
                 document.querySelectorAll('.nav_pc a').forEach(function(link) {
                     link.addEventListener('click', function() {
                         var nav = document.querySelector('.nav_pc');
-                        nav.style.transform = 'translateX(-120%)'; // Cierra el menú
+                        nav.style.transform = 'translateX(-120%)'; 
                     });
                 });
             }
         }
     
         document.addEventListener("DOMContentLoaded", setupNav);
-        window.addEventListener("resize", setupNav); // Vuelve a aplicar la lógica si cambia el tamaño de la pantalla
+        window.addEventListener("resize", setupNav); 
     </script>
     
     

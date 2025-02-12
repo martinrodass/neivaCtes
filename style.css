@@ -18,7 +18,7 @@ body::before{
     background-image: url(img/logos/wall.jpg);
     background-size: 400px;
     filter: blur(0px);
-    z-index: -1; /* Envía el fondo atrás */
+    z-index: -1; 
 
 }
 .contenedor_general{
@@ -84,38 +84,65 @@ main{
     position: relative; 
     width: 70%;
     left: 24vw;
-    top: 70px;
+    top: 120px;
     margin-bottom: 70px;
 }
-/* .stockArriba {
-    width: 90%;
-    margin: auto;
-    height: 200px; /* Cambié max-height a height si necesitas una altura fija */
-    overflow: hidden;
-    margin-top: 70px;
+.contArriba{
     position: relative;
+    display: flex;
+    width: 70%;
+    left: 24vw;
+    top: 79px;
+    bottom:20px;
+    overflow: hidden ;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding:10px;
+}
+.contMap div,.contRedes div{
+    overflow: hidden;
+    margin: 20px;
+    flex-grow: 1;
 }
 
-.stockArriba img {
+.contRedes div{
+    max-width: 150px;
+    max-height: 150px;
+}
+.contRedes,.contMap{
     display: block;
-    width: 100%;
-    height: 100%; /* Asegura que la imagen se ajuste al contenedor */
-    object-fit: cover;
-    object-position: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contMap div img,.contRedes img{
+    width: 100%; 
 }
 
-.stockArriba::before { 
-    content: " NEIVA  Tu tienda de confianza para los mejores vapes del mercado.💨                                                  \A Ubicacion: CORRIENTES CAPITAL                                                    por cordoba entre hipolito yrigoyen y san martin                                                                 \a ofrecemos una amplia gama de dispositivos y líquidos para todos los gustos. 🌬️💨";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%); /* Centra el texto horizontalmente */
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
-    color: white; /* Color del texto */
-    padding: 10px; /* Espaciado alrededor del texto */
-    font-size: 16px; /* Tamaño del texto */
-} */
+.contArriba div h2{
+    margin-top: 40px;
+    text-decoration: underline;
+}
+@media(max-width:990px ) {
+    .contArriba{
+        flex-direction: column;
+        width: 95%;
+        left: inherit;
+        margin: auto;
+        padding: 0;
+    }
+    .contMap div,.contRedes div{
+        margin: inherit;
+        margin-top: 20px;
+        margin-bottom: 20px;
 
+    }
+    .contMap div img,.contRedes img{
+        width: 100%; 
+    }
+}
 
 footer{
     position: relative;
@@ -329,44 +356,6 @@ footer .fa-whatsapp,footer i{
         max-width: 90%;
     }
 }
-
-/* @media (max-width: 730px) {
-    .nav_pc{
-        display: none;
-    }
-    .nav_celular {
-        display: flex;
-        top: auto;
-        position: fixed;
-        z-index: 10000000000000000;
-        top: 25px;
-    }
-    section{ 
-        grid-template-columns: repeat(2, 1fr);
-        }
-    .nav_celular i{
-        padding-right: 25px;
-        width: 15px;
-    }
-    main{
-        left: 0;
-        margin: auto;
-        width: 100%;
-    }
-    header{
-        width: 100%;
-        height: 70px;
-        position: fixed;
-        z-index: 100000000;  
-        background-position: right;
-        background-color: black;
-        overflow: hidden;
-        background-size: contain; 
-        background-position: center; 
-        background-repeat: no-repeat; 
-        background-image: url(img/logos/micrologo.png);
-    }
-} */
 html {
     scroll-padding-top: 70px; /* Ajusta según el tamaño de tu header */
   }

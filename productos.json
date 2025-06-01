@@ -1,0 +1,80 @@
+[
+ {
+   "nombre": "doze up",
+   "descripcion": "",
+   "precio": 6000,
+   "img": "img/vapers/doze up.png"
+ },
+ {
+   "nombre": "drag nano",
+   "descripcion": "",
+   "precio": 32000,
+   "img": "img/vapers/drag nano.png"
+ },
+ {
+   "nombre": "drag x pnp",
+   "descripcion": "",
+   "precio": 55000,
+   "img": "img/vapers/drag x pnp.png"
+ },
+ {
+   "nombre": "elfbar ice king",
+   "descripcion": "",
+   "precio": 35000,
+   "img": "img/vapers/elfbar ice king.png"
+ },
+ {
+   "nombre": "elfbar",
+   "descripcion": "",
+   "precio": 18000,
+   "img": "img/vapers/elfbar.png"
+ },
+ {
+   "nombre": "ignite v150",
+   "descripcion": "",
+   "precio": 25000,
+   "img": "img/vapers/ignite v150.png"
+ },
+ {
+   "nombre": "koko prime",
+   "descripcion": "",
+   "precio": 28000,
+   "img": "img/vapers/koko prime.png"
+ },
+ {
+   "nombre": "lost angel",
+   "descripcion": "",
+   "precio": 21000,
+   "img": "img/vapers/lost angel.png"
+ },
+ {
+   "nombre": "nexa 20000",
+   "descripcion": "",
+   "precio": 20000,
+   "img": "img/vapers/nexa 20000.png"
+ },
+ {
+   "nombre": "oxbar 30000",
+   "descripcion": "",
+   "precio": 27000,
+   "img": "img/vapers/oxbar 30000.png"
+ },
+ {
+   "nombre": "pyne pod",
+   "descripcion": "",
+   "precio": 13000,
+   "img": "img/vapers/pyne pod.png"
+ },
+ {
+   "nombre": "sky solo",
+   "descripcion": "",
+   "precio": 23000,
+   "img": "img/vapers/sky solo.png"
+ },
+ {
+   "nombre": "zero 2",
+   "descripcion": "",
+   "precio": 23000,
+   "img": "img/vapers/zero 2.png"
+ }
+]

@@ -1,0 +1,51 @@
+#bar-container{
+    
+    box-shadow:0px 8px 10px black;
+    width: 100vw;
+    max-width: 700px;
+    height: 90vh;
+    background-color: rgb(231, 231, 231);
+    left: -100vw;
+    z-index: 200000;
+    position: fixed;
+    transition: left 0.2s;
+} 
+#bar:hover, #bar2:hover{
+    color: rgb(72, 72, 72);
+}
+.ul-bar li:hover{
+    
+    background-color: rgba(61, 0, 108, 0.306);
+}
+.ul-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    height: calc(100vh - 125px - 40px - 60px);
+}
+.ul-bar li{
+    margin: 5px;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family:  Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    padding:20px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
+}
+#bar-container i{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(36, 17, 54, 0.442);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+}

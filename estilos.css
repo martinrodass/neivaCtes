@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
  }
 body{
-    background-color: rgb(246, 246, 246);
+    background-color: #121212;
     padding-top: 125px;
+    
 }
 
 :root {
@@ -13,27 +15,26 @@ body{
   --principalTransparent:#2a002fb4;
   --secundario:#77018f;
   --complementario:rgb(255, 255, 255);
-  --terciario:#5D4363;
+  --terciario:#27042d;
+}
+#recar, #descar{
+  scroll-margin-top: 125px;
 }
 
-
-#productos-container{
-  width: 100vw;
+main{
+  /* width: 97vw; */
 }
 .producto{
-  background-color:var(--complementario);
+  
+  background-color:#1e1e1e;
   margin: auto;
   margin-top: 12px;
   width: 95vw;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.117);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.381);
   height: 250px;
   border-radius: 8px;
   padding: 15px;
   display: flex;
-}
-
-.producto:hover{
-  background-color: #00000000;
 }
 .container-img-product{
   display: flex;
@@ -54,21 +55,35 @@ body{
 }
 
 .container-info-product h4{
+  color: #ddd;
   font-size: 20px;
   font-family: 'Arial Narrow', Arial, sans-serif; 
 }
-
+.disponibilidad{
+  color:#dddddd;
+  border-radius:4px ;
+  padding: 5px;
+  background-color: #2f2f2f;
+  width: max-content;
+  margin-bottom: 3px;
+  
+}
+.dis{
+  background-color: #370243;
+  color: #dddd;
+}
 .descripcion{
   font-size: 12px;
   height: 100%;
-  color: #696969;
+  color: #dddd;
   font-family: 'Arial Narrow', Arial, sans-serif; 
 }
 .precio{
   font-size: 28px;
   font-family: Arial, sans-serif; 
+  color: rgb(255, 255, 255);
 }.descuento{
-  color: #383838;
+  color: #6b6b6b;
   font-size: 22px;
   font-family: Arial, sans-serif; 
 }
@@ -81,10 +96,10 @@ body{
 }
 .oferta{
   font-size: 15px;
-  background-color: var(--principal) ;
+  background-color: rgb(153, 185, 153) ;
   border-radius: 9px;
   color: var(--complementario);
-  width: 120px;
+  width: max-content;
   font-weight: 200;
   padding: 5px;
   margin-bottom: 4px;
@@ -99,6 +114,19 @@ body{
   color: var(--complementario);
   text-decoration: none;
   font-size: 15px;
-  width: 90px;
+  width: max-content;
   font-family: 'Arial Narrow', Arial, sans-serif; 
+}
+
+.container-descartables{
+  width: 97vw;
+  margin: auto;
+}
+.subtitulos{
+  color: #fff;
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
 }

@@ -2,16 +2,18 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Tienda Neiva Vapers - venta de vapers al por mayor y menor con envíos a todo el país desde Corrientes Capital.">
-
+  
   <title>neiva vapers</title>
+  <link rel="icon" href="img/logos/favicon-16x16.png" type="image/x-icon">
+
   <link rel="stylesheet" href="estilos.css">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="bar-nav.css">
   <link rel="stylesheet" href="estiloComputadora.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
   <header>
@@ -20,7 +22,7 @@
         <i id="bar" class="fa-solid fa-bars"></i>
       </div>
       <div class="header-son">
-        <h1>NEIVA</h1>
+        <h1><img src="img/logos/logo-Photoroom.png" alt="logo-neiva vapers"></h1>
       </div>
       <div class="header-son">
         <i class="fa-solid fa-phone"></i>
@@ -28,18 +30,28 @@
     </div>
     <div class="sub-header"><p><i class="fa-solid fa-location-dot"></i>&nbsp;corrientes capital - ventas mayorista o minorista</p></div>
   </header>
-
   <nav id="bar-container">  
     <ul class="ul-bar">
-      <li>inicio</li>
-      <li>recargables</li>
-      <li>descartables</li>
-      <li>recargas de vapes</li> 
-      <li>repuestos</li> 
+      <li>en proceso...</li>
+      <li><a href="#recar">recargables</a></li>
+      <li>en proceso...</li>
+      <li>en proceso...</li> 
+      <li>en proceso...</li> 
     </ul>
     <i id="bar2" class="fa-solid fa-x"></i>
   </nav>
-  <div id="productos-container"></div>
+
+  <main>
+    <section class="container-descartables">
+      <h2 class="subtitulos" id="desca">descartables</h2>
+      <div id="descartables"></div>
+    </section>
+    <section class="recargables">
+      <h2 class="subtitulos" id="recar">recargables</h2>
+      <div id="recargables"></div>
+    </section>
+  </main>
+
 
   <script src="productos.js"></script> 
   <script src="nav-bar.js" ></script>

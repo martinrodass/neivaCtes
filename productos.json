@@ -2,20 +2,22 @@
  {
    "nombre": "doze up",
    "descripcion": "Vape descartable con 1600 puffs y sabores intensos. Cómodo, potente y sin necesidad de recarga.",
-   "precio": 6000,
+   "precio": 5999,
    "img": "img/vapers/doze up.png",
    "categoria": "descartable",
    "descuento": 0,
-   "cuotas": 0
+   "cuotas": 0,
+   "stock": 6
  },
  {
    "nombre": "drag nano",
    "descripcion": "Vape recargable compacto, ideal para uso diario. Diseño elegante y rendimiento confiable.",
-   "precio": 32000,
+   "precio": 29000,
    "img": "img/vapers/drag nano.png",
    "categoria": "recargable",
    "descuento": 0,
-   "cuotas": 1
+   "cuotas": 1,
+   "stock": 0
  },
  {
    "nombre": "drag x pnp",
@@ -23,71 +25,69 @@
    "precio": 55000,
    "img": "img/vapers/drag x pnp.png",
    "categoria": "recargable",
-   "descuento": 50,
-   "cuotas": 1
+   "descuento": 0.5,
+   "cuotas": 1,
+   "stock": 0
  },
  {
    "nombre": "elfbar ice king",
    "descripcion": "Descartable con 40000 puffs, sabor mentolado intenso y diseño moderno. Perfecto para frescura duradera.",
-   "precio": 35000,
+   "precio": 29000,
    "img": "img/vapers/elfbar ice king.png",
    "categoria": "descartable",
    "descuento": 0,
-   "cuotas": 1
+   "cuotas": 1,
+   "stock": 0
  },
  {
    "nombre": "elfbar",
    "descripcion": "Elfbar descartable con 10000 puffs. Sabor constante, fácil de usar y sin mantenimiento.",
-   "precio": 18000,
+   "precio": 19000,
    "img": "img/vapers/elfbar.png",
    "categoria": "descartable",
    "descuento": 0,
-   "cuotas": 0
+   "cuotas": 0,
+   "stock": 0
  },
  {
    "nombre": "ignite v150",
    "descripcion": "Ignite V150 descartable con 1500 puffs. Elegante, sabores potentes y práctico.",
-   "precio": 25000,
+   "precio": 22000,
    "img": "img/vapers/ignite v150.png",
    "categoria": "descartable",
    "descuento": 0,
-   "cuotas": 1
+   "cuotas": 1,
+   "stock": 1
  },
  {
    "nombre": "koko prime",
    "descripcion": "Vape recargable con diseño compacto. Compatible con Caliburn y excelente sabor.",
-   "precio": 28000,
+   "precio": 22000,
    "img": "img/vapers/koko prime.png",
    "categoria": "recargable",
    "descuento": 0,
-   "cuotas": 1
+   "cuotas": 1,
+   "stock": 1
  },
  {
    "nombre": "lost angel",
    "descripcion": "Descartable con 20000 puffs. Gran duración, sabores intensos y uso sencillo.",
-   "precio": 21000,
+   "precio": 20000,
    "img": "img/vapers/lost angel.png",
    "categoria": "descartable",
    "descuento": 0,
-   "cuotas": 0
- },
- {
-   "nombre": "nexa 20000",
-   "descripcion": "Nexa descartable con 20000 puffs. Alto rendimiento y excelente duración.",
-   "precio": 20000,
-   "img": "img/vapers/nexa 20000.png",
-   "categoria": "descartable",
-   "descuento": 0,
-   "cuotas": 0
+   "cuotas": 0,
+   "stock": 2
  },
  {
    "nombre": "oxbar 30000",
    "descripcion": "Oxbar descartable con 30000 puffs. Vapeo prolongado, sabores vibrantes y sin recarga.",
-   "precio": 27000,
+   "precio": 24000,
    "img": "img/vapers/oxbar 30000.png",
    "categoria": "descartable",
    "descuento": 0,
-   "cuotas": 1
+   "cuotas": 1,
+   "stock": 0
  },
  {
    "nombre": "pyne pod",
@@ -96,24 +96,47 @@
    "img": "img/vapers/pyne pod.png",
    "categoria": "descartable",
    "descuento": 0,
-   "cuotas": 0
+   "cuotas": 0,
+   "stock": 0
  },
  {
    "nombre": "sky solo",
    "descripcion": "Vape recargable tipo pen. Fácil uso, ideal para principiantes.",
-   "precio": 23000,
+   "precio": 21400,
    "img": "img/vapers/sky solo.png",
    "categoria": "recargable",
    "descuento": 0,
-   "cuotas": 1
+   "cuotas": 1,
+   "stock": 0
  },
  {
    "nombre": "zero 2",
    "descripcion": "Elegante y recargable, el Zero 2 ofrece vapeo suave con diseño futurista.",
-   "precio": 23000,
+   "precio": 22000,
    "img": "img/vapers/zero 2.png",
    "categoria": "recargable",
    "descuento": 0,
-   "cuotas": 1
+   "cuotas": 1,
+   "stock": 0
+ },
+ {
+   "nombre": "uwell 12k",
+   "descripcion": "12 000 puffs, batería recargable USB‑C , modos Regular/Boost.",
+   "precio": 13000,
+   "img": "img/vapers/uwell 12.png",
+   "categoria": "descartable",
+   "descuento": 0,
+   "cuotas": 0,
+   "stock": 2
+ },
+ {
+   "nombre": "nikbar 40k",
+   "descripcion": "hasta 40 000 inhalaciones, batería recargable , pantalla HD, activación por inhalación",
+   "precio": 26300,
+   "img": "img/vapers/nikbar 40.png",
+   "categoria": "descartable",
+   "descuento": 0,
+   "cuotas": 1,
+   "stock": 2
  }
 ]

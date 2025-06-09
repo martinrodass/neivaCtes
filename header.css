@@ -9,6 +9,12 @@ header{
   background-color: var(--principal);
   height: 100px;
   display: flex;
+  justify-content: baseline;
+}
+.header-container h1 img{
+  height: 90px;
+  outline: 1px solid red;
+  margin-top: 10px;
 }
 .header-son {
     width: 33.333333333%;

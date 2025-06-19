@@ -6,14 +6,13 @@ header{
 }
 
 .header-container{
-  background-color: #000;
+  background-color: #101010;
   height: 100px;
   display: flex;
-  justify-content: baseline;
+  justify-content: center;
 }
 .header-container h1 img{
   height: 90px;
-  outline: 1px solid red;
   margin-top: 10px;
 }
 .header-son {
@@ -34,12 +33,16 @@ header{
   }
 
 .sub-header{
-    background-color: var(--terciario);
+    background-color: #9a008042;
     height: 25px;
     font-size: 15px;
     color: rgb(238, 233, 237);
     padding-left: 9px;
     display: flex;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     align-items: center;
 }
 #bar{

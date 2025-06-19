@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
  }
 body{
     background-color: #121212;
@@ -17,13 +20,7 @@ body{
   --complementario:rgb(255, 255, 255);
   --terciario:#27042d;
 }
-#recar, #descar{
-  scroll-margin-top: 125px;
-}
 
-main{
-  /* width: 97vw; */
-}
 .producto{
   
   background-color:#1e1e1e;
@@ -57,7 +54,10 @@ main{
 .container-info-product h4{
   color: #ddd;
   font-size: 20px;
-  font-family: 'Arial Narrow', Arial, sans-serif; 
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .disponibilidad{
   color:#dddddd;
@@ -76,16 +76,25 @@ main{
   font-size: 12px;
   height: 100%;
   color: #dddd;
-  font-family: 'Arial Narrow', Arial, sans-serif; 
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .precio{
   font-size: 28px;
-  font-family: Arial, sans-serif; 
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
   color: rgb(255, 255, 255);
 }.descuento{
   color: #6b6b6b;
   font-size: 22px;
-  font-family: Arial, sans-serif; 
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .descuento span{
   color: rgb(255, 255, 255);
@@ -93,6 +102,10 @@ main{
   border-radius: 6px;
   padding: 2px;
   font-size: 15px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 .oferta{
   font-size: 15px;
@@ -103,7 +116,10 @@ main{
   font-weight: 200;
   padding: 5px;
   margin-bottom: 4px;
-  font-family: 'Arial Narrow', Arial, sans-serif; 
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
 }
 
 .comprar{
@@ -115,7 +131,9 @@ main{
   text-decoration: none;
   font-size: 15px;
   width: max-content;
-  font-family: 'Arial Narrow', Arial, sans-serif; 
+  font-family: "Roboto Condensed";
+  font-weight: weight;
+  font-style: normal;
 }
 
 .container-descartables{
@@ -129,4 +147,8 @@ main{
   justify-content: center;
   width: 50%;
   margin: auto;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }

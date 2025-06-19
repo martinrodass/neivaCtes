@@ -6,7 +6,7 @@ header{
 }
 
 .header-container{
-  background-color: var(--principal);
+  background-color: #000;
   height: 100px;
   display: flex;
   justify-content: baseline;

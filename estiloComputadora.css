@@ -1,5 +1,5 @@
 @media (min-width: 699px) {
-  #descartables, #recargables{
+  #descartables, #recargables,#pedido{
     margin: auto;
     display: flex;
     width: 80vw;
@@ -29,7 +29,7 @@
 } 
 }
 @media (min-width: 1100px) {
-    #descartables, #recargables{
+    #descartables, #recargables,#pedido{
         width: 80vw;
     }
     .producto{

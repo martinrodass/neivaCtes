@@ -72,12 +72,12 @@
  {
    "nombre": "lost angel",
    "descripcion": "Descartable con 20000 puffs. Gran duración, sabores intensos y uso sencillo.",
-   "precio": 15000,
+   "precio": 18000,
    "img": "img/vapers/lost angel.png",
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 0,
-   "stock": 2
+   "stock": 4
  },
  {
    "nombre": "oxbar 30000",
@@ -127,7 +127,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 0,
-   "stock": 2
+   "stock": 0
  },
  {
    "nombre": "nikbar 40k",
@@ -137,6 +137,6 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 1,
-   "stock": 2
+   "stock": 0
  }
 ]

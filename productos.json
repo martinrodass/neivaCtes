@@ -77,7 +77,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 0,
-   "stock": 1
+   "stock": 0
  },
  {
    "nombre": "oxbar 30000",
@@ -152,7 +152,7 @@
  {
    "nombre": "lightrise",
    "descripcion": "El Lightrise combina estilo, funcionalidad y tecnología avanzada en un solo dispositivo. Ideal para quienes buscan una experiencia moderna y elegante.",
-   "precio": 18500,
+   "precio": 17500,
    "img": "img/vapers/lightrise.png",
    "categoria": "descartable",
    "descuento": 0,

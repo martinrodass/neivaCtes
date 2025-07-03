@@ -7,7 +7,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 0,
-   "stock": 0
+   "stock": 4
  },
  {
    "nombre": "drag nano",
@@ -25,7 +25,7 @@
    "precio": 55000,
    "img": "img/vapers/drag x pnp.png",
    "categoria": "recargable",
-   "descuento": 0.5,
+   "descuento": 0,
    "cuotas": 1,
    "stock": 0
  },
@@ -52,12 +52,12 @@
  {
    "nombre": "ignite v150",
    "descripcion": "Ignite V150 descartable con 1500 puffs. Elegante, sabores potentes y práctico.",
-   "precio": 20000,
+   "precio": 22000,
    "img": "img/vapers/ignite v150.png",
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 1,
-   "stock": 1
+   "stock": 0
  },
  {
    "nombre": "koko prime",
@@ -72,12 +72,12 @@
  {
    "nombre": "lost angel",
    "descripcion": "Descartable con 20000 puffs. Gran duración, sabores intensos y uso sencillo.",
-   "precio": 18000,
+   "precio": 20000,
    "img": "img/vapers/lost angel.png",
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 0,
-   "stock": 2
+   "stock": 1
  },
  {
    "nombre": "oxbar 30000",
@@ -122,7 +122,7 @@
  {
    "nombre": "uwell 12k",
    "descripcion": "12 000 puffs, batería recargable USB‑C , modos Regular/Boost.",
-   "precio": 12000,
+   "precio": 13000,
    "img": "img/vapers/uwell 12.png",
    "categoria": "descartable",
    "descuento": 0,
@@ -132,11 +132,41 @@
  {
    "nombre": "nikbar 40k",
    "descripcion": "hasta 40 000 inhalaciones, batería recargable , pantalla HD, activación por inhalación",
-   "precio": 20000,
+   "precio": 26300,
    "img": "img/vapers/nikbar 40.png",
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 1,
-   "stock": 0
+   "stock": 3
+ },
+ {
+   "nombre": "fume 2500",
+   "descripcion": "el Fume 2500, diseñado para ofrecer hasta 2,500 inhalaciones de sabor intenso y constante.",
+   "precio": 7000,
+   "img": "img/vapers/fume 2500.png",
+   "categoria": "descartable",
+   "descuento": 0,
+   "cuotas": 0,
+   "stock": 3
+ },
+ {
+   "nombre": "lightrise",
+   "descripcion": "El Lightrise combina estilo, funcionalidad y tecnología avanzada en un solo dispositivo. Ideal para quienes buscan una experiencia moderna y elegante.",
+   "precio": 18500,
+   "img": "img/vapers/lightrise.png",
+   "categoria": "descartable",
+   "descuento": 0,
+   "cuotas": 0,
+   "stock": 4
+ },
+ {
+   "nombre": "argus g2 mini",
+   "descripcion": "Compacto, potente y elegante. El Argus G2 Mini de Voopoo es la elección perfecta para quienes buscan rendimiento en un tamaño reducido.",
+   "precio": 25000,
+   "img": "img/vapers/argus mini.png",
+   "categoria": "recargable",
+   "descuento": 0,
+   "cuotas": 1,
+   "stock": 1
  }
 ]

@@ -12,7 +12,7 @@
  {
    "nombre": "drag nano",
    "descripcion": "Vape recargable compacto, ideal para uso diario. Diseño elegante y rendimiento confiable.",
-   "precio": 29000,
+   "precio": 23000,
    "img": "img/vapers/drag nano.png",
    "categoria": "recargable",
    "descuento": 0,
@@ -32,7 +32,7 @@
  {
    "nombre": "elfbar ice king",
    "descripcion": "Descartable con 40000 puffs, sabor mentolado intenso y diseño moderno. Perfecto para frescura duradera.",
-   "precio": 29000,
+   "precio": 26000,
    "img": "img/vapers/elfbar ice king.png",
    "categoria": "descartable",
    "descuento": 0,
@@ -42,7 +42,7 @@
  {
    "nombre": "elfbar",
    "descripcion": "Elfbar descartable con 10000 puffs. Sabor constante, fácil de usar y sin mantenimiento.",
-   "precio": 19000,
+   "precio": 17000,
    "img": "img/vapers/elfbar.png",
    "categoria": "descartable",
    "descuento": 0,
@@ -52,7 +52,7 @@
  {
    "nombre": "ignite v150",
    "descripcion": "Ignite V150 descartable con 1500 puffs. Elegante, sabores potentes y práctico.",
-   "precio": 22000,
+   "precio": 20000,
    "img": "img/vapers/ignite v150.png",
    "categoria": "descartable",
    "descuento": 0,
@@ -62,7 +62,7 @@
  {
    "nombre": "koko prime",
    "descripcion": "Vape recargable con diseño compacto. Compatible con Caliburn y excelente sabor.",
-   "precio": 22000,
+   "precio": 23000,
    "img": "img/vapers/koko prime.png",
    "categoria": "recargable",
    "descuento": 0,
@@ -72,7 +72,7 @@
  {
    "nombre": "lost angel",
    "descripcion": "Descartable con 20000 puffs. Gran duración, sabores intensos y uso sencillo.",
-   "precio": 20000,
+   "precio": 15750,
    "img": "img/vapers/lost angel.png",
    "categoria": "descartable",
    "descuento": 0,
@@ -82,7 +82,7 @@
  {
    "nombre": "oxbar 30000",
    "descripcion": "Oxbar descartable con 30000 puffs. Vapeo prolongado, sabores vibrantes y sin recarga.",
-   "precio": 24000,
+   "precio": 21300,
    "img": "img/vapers/oxbar 30000.png",
    "categoria": "descartable",
    "descuento": 0,
@@ -92,7 +92,7 @@
  {
    "nombre": "pyne pod",
    "descripcion": "Pyne Pod con 8500puffs. Buen balance entre duración, sabor y portabilidad.",
-   "precio": 13000,
+   "precio": 12000,
    "img": "img/vapers/pyne pod.png",
    "categoria": "descartable",
    "descuento": 0,
@@ -102,7 +102,7 @@
  {
    "nombre": "sky solo",
    "descripcion": "Vape recargable tipo pen. Fácil uso, ideal para principiantes.",
-   "precio": 21400,
+   "precio": 20000,
    "img": "img/vapers/sky solo.png",
    "categoria": "recargable",
    "descuento": 0,
@@ -112,7 +112,7 @@
  {
    "nombre": "zero 2",
    "descripcion": "Elegante y recargable, el Zero 2 ofrece vapeo suave con diseño futurista.",
-   "precio": 22000,
+   "precio": 20000,
    "img": "img/vapers/zero 2.png",
    "categoria": "recargable",
    "descuento": 0,
@@ -122,7 +122,7 @@
  {
    "nombre": "uwell 12k",
    "descripcion": "12 000 puffs, batería recargable USB‑C , modos Regular/Boost.",
-   "precio": 13000,
+   "precio": 12000,
    "img": "img/vapers/uwell 12.png",
    "categoria": "descartable",
    "descuento": 0,

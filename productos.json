@@ -7,7 +7,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 0,
-   "stock": 4
+   "stock": 5
  },
  {
    "nombre": "drag nano",
@@ -77,7 +77,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 0,
-   "stock": 0
+   "stock": 4
  },
  {
    "nombre": "oxbar 30000",
@@ -137,7 +137,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 1,
-   "stock": 3
+   "stock": 4
  },
  {
    "nombre": "fume 2500",
@@ -147,7 +147,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 0,
-   "stock": 3
+   "stock": 8
  },
  {
    "nombre": "lightrise",
@@ -157,7 +157,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 0,
-   "stock": 4
+   "stock": 0
  },
  {
    "nombre": "argus g2 mini",

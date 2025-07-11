@@ -89,36 +89,7 @@
    "cuotas": 1,
    "stock": 0
  },
- {
-   "nombre": "pyne pod",
-   "descripcion": "Pyne Pod con 8500puffs. Buen balance entre duración, sabor y portabilidad.",
-   "precio": 12000,
-   "img": "img/vapers/pyne pod.png",
-   "categoria": "descartable",
-   "descuento": 0,
-   "cuotas": 0,
-   "stock": 0
- },
- {
-   "nombre": "sky solo",
-   "descripcion": "Vape recargable tipo pen. Fácil uso, ideal para principiantes.",
-   "precio": 20000,
-   "img": "img/vapers/sky solo.png",
-   "categoria": "recargable",
-   "descuento": 0,
-   "cuotas": 1,
-   "stock": 0
- },
- {
-   "nombre": "zero 2",
-   "descripcion": "Elegante y recargable, el Zero 2 ofrece vapeo suave con diseño futurista.",
-   "precio": 20000,
-   "img": "img/vapers/zero 2.png",
-   "categoria": "recargable",
-   "descuento": 0,
-   "cuotas": 1,
-   "stock": 0
- },
+ 
  {
    "nombre": "uwell 12k",
    "descripcion": "12 000 puffs, batería recargable USB‑C , modos Regular/Boost.",

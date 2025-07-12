@@ -72,7 +72,7 @@
  {
    "nombre": "lost angel",
    "descripcion": "Descartable con 15000 puffs. Gran duración, sabores intensos y uso sencillo.",
-   "precio": 16000,
+   "precio": 18000,
    "img": "img/vapers/lost angel.png",
    "categoria": "descartable",
    "descuento": 0,
@@ -103,7 +103,7 @@
  {
    "nombre": "nikbar 40k",
    "descripcion": "hasta 40 000 inhalaciones, batería recargable , pantalla HD, activación por inhalación",
-   "precio": 26300,
+   "precio": 26500,
    "img": "img/vapers/nikbar 40.png",
    "categoria": "descartable",
    "descuento": 0,
@@ -133,7 +133,7 @@
  {
    "nombre": "argus g2 mini",
    "descripcion": "Compacto, potente y elegante. El Argus G2 Mini de Voopoo es la elección perfecta para quienes buscan rendimiento en un tamaño reducido.",
-   "precio": 25000,
+   "precio": 23000,
    "img": "img/vapers/argus mini.png",
    "categoria": "recargable",
    "descuento": 0,

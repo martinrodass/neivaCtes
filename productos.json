@@ -7,7 +7,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 0,
-   "stock": 5
+   "stock": 6
  },
  {
    "nombre": "drag nano",
@@ -57,7 +57,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 1,
-   "stock": 0
+   "stock": 2
  },
  {
    "nombre": "koko prime",
@@ -77,7 +77,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 0,
-   "stock": 4
+   "stock": 5
  },
  {
    "nombre": "oxbar 30000",
@@ -108,7 +108,7 @@
    "categoria": "descartable",
    "descuento": 0,
    "cuotas": 1,
-   "stock": 4
+   "stock": 3
  },
  {
    "nombre": "fume 2500",
